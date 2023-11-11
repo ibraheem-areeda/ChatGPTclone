@@ -1,0 +1,25 @@
+.input-container {
+  text-align: center;
+  padding: 0.5rem;
+  border-top: 1px solid var(--primary-text);
+  position: relative;
+}
+.input-container textarea {
+  padding: 0.3rem;
+  outline: none;
+  border: 1px solid var(--secondary-background);
+  resize: none;
+  width: 92%;
+  border-radius: 0.5rem;
+  height: 2rem;
+  padding-right: 1.5rem;
+}
+.input-container button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  right: 4%;
+  top: 1.3rem;
+}

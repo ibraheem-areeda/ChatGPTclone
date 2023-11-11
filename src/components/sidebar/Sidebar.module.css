@@ -1,0 +1,33 @@
+.aside {
+  background-color: var(--secondary-background);
+  color: var(--secondary-text);
+  height: 100%;
+  flex-basis: 15.25rem;
+}
+.aside .elements-container {
+  height: 100%;
+  display: flex;
+  overflow-y: scroll;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: var(--secondary-text);
+}
+.closeButton {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .aside {
+    position: absolute;
+    width: 15.25rem;
+    z-index: 5;
+  }
+  .closeButton {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 15.25rem;
+  }
+}

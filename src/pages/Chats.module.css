@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+.newChatButton {
+  border: 1px solid var(--secondary-text);
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 0.4rem;
+  color: var(--secondary-text);
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin-top: 0.5rem;
+}
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+}

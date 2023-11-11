@@ -1,0 +1,7 @@
+.button-clear {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--primary-text);
+  cursor: pointer;
+}

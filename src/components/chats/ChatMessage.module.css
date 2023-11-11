@@ -1,0 +1,25 @@
+.message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  padding-inline: 3rem;
+}
+.answer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  padding-inline: 3rem;
+  background-color: var(--tertiary-background);
+}
+.answer:last-of-type {
+  margin-bottom: 1rem;
+}
+.message img,
+.answer img {
+  width: 2rem;
+  height: 2rem;
+}

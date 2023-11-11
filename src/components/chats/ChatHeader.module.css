@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1.5rem;
+  align-items: center;
+}
+.header > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+.toggler {
+  display: none;
+}
+@media (max-width: 767px) {
+  .toggler {
+    display: inline;
+  }
+}
